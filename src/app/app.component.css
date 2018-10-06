@@ -1,0 +1,15 @@
+img {
+  border: solid 1px orangered;
+  border-radius: 50%;
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    border-style: solid;
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
