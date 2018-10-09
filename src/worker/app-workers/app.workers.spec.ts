@@ -44,7 +44,6 @@ describe('AppWorkers', () => {
       appWorkers.workerBroker(mockEvent);
       expect(mockWorker.currentMessage.topic.toString()).toEqual('cpuIntensive');
     });
-
   });
 
 });

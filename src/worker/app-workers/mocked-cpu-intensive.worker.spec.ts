@@ -8,7 +8,7 @@ describe('MockedCpuIntensiveWorker', () => {
     });
 
     it('Should perform doWork operation', () => {
-      let workerMessage = {topic:'cupIntensive', data:{duration:10}};
+      let workerMessage = {topic:'cpuIntensive', data:{duration:10}};
       expect(MockedCpuIntensiveWorker.doWork(WorkerMessage.getInstance(workerMessage)).data.iteration).toBeGreaterThan(0);
     });
 
