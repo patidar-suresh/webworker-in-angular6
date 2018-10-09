@@ -4,8 +4,7 @@ A simple implementation of integrating web worker in angular 6 application to ru
 
 
 
-This project code is part of an article published on Medium that explain this example in detail:
-[Link to Article]
+This project code is part of an article [Running Web Worker in Angular 6](https://medium.com/@suresh.patidar/running-web-worker-in-angular-6-application-a-step-by-step-guide-74e88c566ba4) published on Medium that explain this example in detail.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
