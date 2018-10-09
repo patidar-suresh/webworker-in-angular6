@@ -1,5 +1,5 @@
 /* src/worker/app-workers/shared/worker-topic.constants.ts */
 
 export const WORKER_TOPIC = {
-  cpuIntensive: 'cupIntensive',
+  cpuIntensive: 'cpuIntensive',
 };
